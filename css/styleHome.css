@@ -1,0 +1,531 @@
+                                                * {
+                                                    box-sizing: border-box;
+                                                    margin: 0;
+                                                    padding: 0;
+                                                }
+                                                /********************************************************* Start nav  Sction***********************************************************/
+                                                
+                                                h3 a {
+                                                    text-decoration: none;
+                                                    color: #fff;
+                                                    font-weight: 700;
+                                                    font-family: "Montserrat" !important;
+                                                }
+                                                
+                                                .navbar {
+                                                    background-color: transparent !important;
+                                                }
+                                                
+                                                .navbar-brand img {
+                                                    width: 10rem;
+                                                }
+                                                
+                                                ul li a {
+                                                    transition: all 0.5s linear;
+                                                    color: #333333 !important;
+                                                    text-decoration: none;
+                                                    font-family: "Montserrat", sans-serif !important;
+                                                    font-weight: 600;
+                                                    margin-left: 10px;
+                                                    letter-spacing: 1.5px;
+                                                }
+                                                
+                                                .nav-link {
+                                                    transition: all 1s linear;
+                                                }
+                                                
+                                                .activeLink {
+                                                    background-color: #ff58427d;
+                                                    border-radius: 30px;
+                                                }
+                                                
+                                                .nav-link:hover {
+                                                    background-color: #ff58427d;
+                                                    border-radius: 30px;
+                                                }
+                                                
+                                                .form-control {
+                                                    width: 100px;
+                                                    font-size: 0.7rem;
+                                                }
+                                                
+                                                .cartIcon {
+                                                    cursor: pointer;
+                                                    margin-top: -9px;
+                                                }
+                                                
+                                                .logo {
+                                                    letter-spacing: 6px;
+                                                    margin-right: 20px;
+                                                }
+                                                
+                                                .navActive {
+                                                    background-color: beige;
+                                                    border-radius: 20%;
+                                                }
+                                                
+                                                .test {
+                                                    font-weight: 900;
+                                                }
+                                                
+                                                .fab {
+                                                    cursor: pointer;
+                                                }
+                                                
+                                                .dropdown-menu {
+                                                    background-color: transparent;
+                                                    border: 1px solid transparent;
+                                                    border-radius: 30px;
+                                                }
+                                                
+                                                .dropdown-menu li a {
+                                                    color: #000000 !important;
+                                                    transition: all linear 0.5s;
+                                                    border-radius: 30px;
+                                                    background-color: transparent !important;
+                                                }
+                                                
+                                                .dropdown-menu li a:hover {
+                                                    color: #ff58427d !important;
+                                                }
+                                                /*********************************************************End Header Style Sction****************************************************/
+                                                
+                                                .row {
+                                                    display: flex;
+                                                    justify-content: space-around;
+                                                    flex-wrap: wrap;
+                                                    align-items: center;
+                                                }
+                                                
+                                                .colH1 {
+                                                    flex-basis: 50%;
+                                                    min-width: 18rem;
+                                                    margin-top: 120px;
+                                                }
+                                                
+                                                .colH1 h1 {
+                                                    font-size: 3rem;
+                                                    line-height: 3.75rem;
+                                                    margin: 25px 0;
+                                                    font-weight: 600;
+                                                }
+                                                
+                                                .col-2 .colImag {
+                                                    flex-basis: 50%;
+                                                }
+                                                
+                                                .colImag img {
+                                                    max-width: 100%;
+                                                }
+                                                
+                                                header {
+                                                    background: radial-gradient(#fff, #ffd6d6);
+                                                    height: 100vh;
+                                                }
+                                                
+                                                .btn {
+                                                    margin: 30px 0;
+                                                    padding: 8px 30px;
+                                                    background-color: #ff523b;
+                                                    border-radius: 30px;
+                                                    color: #fff;
+                                                    transition: all linear 0.5s;
+                                                }
+                                                
+                                                .btn:hover {
+                                                    background-color: transparent;
+                                                    color: #333;
+                                                    border: 1px solid #333;
+                                                }
+                                                /*********************************************************End Header Style Sction****************************************************/
+                                                /********************************************************* Start catogry  Style Sction****************************************************/
+                                                
+                                                .catogry {
+                                                    margin-top: 70px;
+                                                }
+                                                
+                                                .smallContainer {
+                                                    max-width: 1080px;
+                                                    margin: auto;
+                                                    padding-left: 25px;
+                                                    padding-right: 25px;
+                                                }
+                                                
+                                                .colContentCatogry img {
+                                                    width: 100%;
+                                                    border-radius: 2%;
+                                                }
+                                                
+                                                .colContentCatogry {
+                                                    min-width: 250px;
+                                                    flex-basis: 30%;
+                                                    margin-bottom: 40px;
+                                                }
+                                                /********************************************************* End nav  Sction***********************************************************/
+                                                /********************************************************* Start Products  Style Sction****************************************************/
+                                                
+                                                .products {
+                                                    margin-top: 70px;
+                                                }
+                                                
+                                                .colProductContent {
+                                                    flex-basis: 25%;
+                                                    min-width: 200px;
+                                                    margin-bottom: 30px;
+                                                    padding: 30px;
+                                                    transition: all linear 0.5s;
+                                                }
+                                                
+                                                .title {
+                                                    position: relative;
+                                                    font-size: 40px;
+                                                    font-weight: 500;
+                                                    text-align: center;
+                                                    padding-bottom: 10px;
+                                                    line-height: 60px;
+                                                    color: #555;
+                                                    transition: all linear 0.5s;
+                                                    cursor: alias;
+                                                }
+                                                
+                                                .title::after {
+                                                    content: "";
+                                                    position: absolute;
+                                                    bottom: 0;
+                                                    left: 50%;
+                                                    width: 80px;
+                                                    height: 5px;
+                                                    background-color: #ff523b;
+                                                    border-radius: 30px;
+                                                    transform: translateX(-50px);
+                                                }
+                                                
+                                                .title:hover {
+                                                    transform: translateY(-5px);
+                                                }
+                                                
+                                                .titleProducts {
+                                                    font-size: 15px;
+                                                    font-weight: 500;
+                                                }
+                                                
+                                                .colProductContent img {
+                                                    padding-bottom: 20px;
+                                                    margin-bottom: 40px;
+                                                }
+                                                
+                                                .productsPrice {
+                                                    font-weight: 600;
+                                                    font-size: small;
+                                                }
+                                                
+                                                .colProductContent:hover {
+                                                    transform: translateY(-5px);
+                                                }
+                                                
+                                                .fa-star,
+                                                .fa-star-half-stroke {
+                                                    color: #ff523b !important;
+                                                }
+                                                /********************************************************* Start Products  Style Sction****************************************************/
+                                                /********************************************************* Start Offer  Style Sction****************************************************/
+                                                
+                                                .offer {
+                                                    margin-top: 80px;
+                                                    padding: 30px 0;
+                                                    background: radial-gradient(#fff, #ffd6d6);
+                                                }
+                                                
+                                                .colOfferContent {
+                                                    min-width: 381px;
+                                                }
+                                                
+                                                .imgOffer {
+                                                    max-width: 400px;
+                                                }
+                                                
+                                                .colOfferContent p {
+                                                    font-size: smaller;
+                                                    color: #555;
+                                                }
+                                                
+                                                .colOfferContent h3 {
+                                                    font-size: 40px;
+                                                    font-weight: 500;
+                                                    line-height: 40px;
+                                                }
+                                                
+                                                .colOfferContent small {
+                                                    color: #555;
+                                                }
+                                                /********************************************************* End Offer  Style Sction****************************************************/
+                                                /********************************************************* Start Testmonialls  Style Sction****************************************************/
+                                                
+                                                .testimonials {
+                                                    margin: 200px auto 100px;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                }
+                                                
+                                                .testimonials .card {
+                                                    position: relative;
+                                                    width: auto;
+                                                    box-sizing: border-box;
+                                                    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+                                                    background-color: #ffffff;
+                                                    margin: 0 auto;
+                                                    overflow: hidden;
+                                                    border-radius: 10px;
+                                                    padding: 30px;
+                                                    cursor: pointer;
+                                                }
+                                                
+                                                .testimonials .layer {
+                                                    position: absolute;
+                                                    top: 100%;
+                                                    left: 0;
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    z-index: 1;
+                                                    background: radial-gradient(#fff, #ffd6d6);
+                                                    transition: all 0.7s ease-out;
+                                                }
+                                                
+                                                .testimonials .card:hover .layer {
+                                                    top: 0
+                                                }
+                                                
+                                                .testimonials .card:hover p {
+                                                    color: #000000;
+                                                }
+                                                
+                                                .testimonials .testDetails {
+                                                    z-index: 2;
+                                                    position: relative;
+                                                }
+                                                
+                                                .testimonials .testContent p {
+                                                    font-size: 16px;
+                                                    line-height: 30px;
+                                                    /* color: #fff; */
+                                                    z-index: 2;
+                                                    position: relative;
+                                                    color: #000000;
+                                                }
+                                                
+                                                .testimonials .testContent .image img {
+                                                    width: 150px;
+                                                    height: 150px;
+                                                    border: 4px solid #ff523b !important;
+                                                    border-radius: 50%;
+                                                    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+                                                    z-index: 2;
+                                                    position: relative;
+                                                    margin-bottom: 10px;
+                                                }
+                                                
+                                                .testimonials .testDetails h3 {
+                                                    font-size: 18px;
+                                                    /* color: rgb(255, 255, 255) !important; */
+                                                    z-index: 2;
+                                                    position: relative;
+                                                    color: #000000;
+                                                }
+                                                /********************************************************* End Testmonialls  Style Sction****************************************************/
+                                                /********************************************************* Start Brands  Style Sction****************************************************/
+                                                
+                                                .brands {
+                                                    padding: 1000px auto;
+                                                    margin-top: 60px;
+                                                    margin-bottom: 60px;
+                                                }
+                                                
+                                                .imageStore {
+                                                    cursor: pointer;
+                                                    transition: all 0.5s linear;
+                                                    margin-left: 10px;
+                                                }
+                                                
+                                                .imageStore:hover {
+                                                    transform: scale(1.1);
+                                                }
+                                                
+                                                .imageBrnds img {
+                                                    width: 80%;
+                                                    cursor: pointer;
+                                                    filter: grayscale(100%);
+                                                    transition: all 0.5s
+                                                }
+                                                
+                                                .imageBrnds img:hover {
+                                                    filter: grayscale(0);
+                                                    transform: translateY(-5px);
+                                                }
+                                                /********************************************************* End brands  Style Sction****************************************************/
+                                                /********************************************************* Start Footer Style Sction****************************************************/
+                                                
+                                                .imageStore {
+                                                    width: 100px;
+                                                }
+                                                
+                                                .footer {
+                                                    max-width: 1700px;
+                                                }
+                                                
+                                                .imageBrand {
+                                                    width: 100px;
+                                                    margin-bottom: 10px;
+                                                }
+                                                
+                                                .UsefullLinks li {
+                                                    margin-bottom: 14px !important;
+                                                    cursor: pointer;
+                                                    transition: all 0.5s linear;
+                                                }
+                                                
+                                                .UsefullLinks li:hover {
+                                                    color: #ff523b;
+                                                    transform: translateX(-5px);
+                                                }
+                                                
+                                                .icon {
+                                                    font-size: 12px !important;
+                                                    transition: all 0.5s linear;
+                                                }
+                                                
+                                                .desc {
+                                                    transition: all 0.5s linear;
+                                                }
+                                                
+                                                .icon,
+                                                .desc:hover {
+                                                    transform: translateY(-5px);
+                                                }
+                                                
+                                                .myNames {
+                                                    color: #ff523b;
+                                                    font-weight: 700;
+                                                    cursor: pointer;
+                                                }
+                                                
+                                                .socialMe {
+                                                    cursor: pointer;
+                                                }
+                                                
+                                                .socialMe .fab1:hover {
+                                                    color: #1877f2 !important;
+                                                    transform: translateY(-5px);
+                                                }
+                                                
+                                                .socialMe .fab2:hover {
+                                                    color: #c32aa3!important;
+                                                    transform: translateY(-5px);
+                                                }
+                                                
+                                                .socialMe .fab3:hover {
+                                                    color: #0a66c2 !important;
+                                                    transform: translateY(-5px);
+                                                }
+                                                
+                                                .socialMe .fab4:hover {
+                                                    color: #1da1f2 !important;
+                                                    transform: translateY(-5px);
+                                                }
+                                                
+                                                .socialMe .fab5:hover {
+                                                    color: #ff0000 !important;
+                                                    transform: translateY(-5px);
+                                                }
+                                                
+                                                .socialMe .fab6:hover {
+                                                    color: #4285f4 !important;
+                                                    transform: translateY(-5px);
+                                                }
+                                                
+                                                .socialMe .fab7:hover {
+                                                    color: #25d366!important;
+                                                    transform: translateY(-5px);
+                                                }
+                                                
+                                                .socialMe .svg-inline--fa {
+                                                    color: #ffffff !important;
+                                                    font-size: 15px;
+                                                    transition: all 0.5s linear;
+                                                    margin-left: 5px;
+                                                }
+                                                /********************************************************* End Footer Style Sction****************************************************/
+                                                /**********************************************************Start Media Query Responsive*************************************************/
+                                                
+                                                @media only screen and (max-width: 600px) {
+                                                    .row {
+                                                        text-align: center;
+                                                    }
+                                                    .col-2,
+                                                    .col-3,
+                                                    .col-4 {
+                                                        flex-basis: 100%;
+                                                    }
+                                                    .colImag img {
+                                                        padding-top: 11px;
+                                                        width: 60%;
+                                                    }
+                                                    header .btn {
+                                                        margin-top: 8px;
+                                                        margin-bottom: 8px;
+                                                    }
+                                                    header p {
+                                                        margin-bottom: 10px;
+                                                    }
+                                                    .colH1 h1 {
+                                                        font-size: 2.5rem;
+                                                        line-height: 3rem;
+                                                    }
+                                                    .pBrand {
+                                                        margin-top: 10px;
+                                                    }
+                                                    .imageBrnds {
+                                                        display: flex;
+                                                        flex-wrap: wrap;
+                                                        width: 50%;
+                                                    }
+                                                    .imageBrand {
+                                                        width: 35%;
+                                                    }
+                                                    .sefullLinks li {
+                                                        text-align: center;
+                                                    }
+                                                    .infoIcon h4,
+                                                    p {
+                                                        text-align: center;
+                                                    }
+                                                    .desc {
+                                                        position: relative;
+                                                    }
+                                                    .icon {
+                                                        position: absolute;
+                                                        top: 45%;
+                                                        left: 25%;
+                                                        font-size: 15px !important;
+                                                    }
+                                                }
+                                                
+                                                @media only screen and (min-width: 992px) {
+                                                    .colImag {
+                                                        width: 50%;
+                                                        margin-top: 10px;
+                                                        padding: 20px;
+                                                    }
+                                                    .desc {
+                                                        position: relative;
+                                                    }
+                                                    .icon {
+                                                        position: absolute;
+                                                        top: 45%;
+                                                        right: 97%;
+                                                        font-size: 18px !important;
+                                                    }
+                                                }
+                                                
+                                                @media only screen and (min-width: 1400px) {}
+                                                /**********************************************************End Media Query Responsive*************************************************/
